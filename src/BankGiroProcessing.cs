@@ -8,7 +8,7 @@ using Starcounter;
 namespace PresModels
 {
     [Database]
-    class BankGiroProcessing
+    public class BankGiroProcessing
     {
         public string CompanyName { get; set; }
         public long OrgNumber { get; set; }
